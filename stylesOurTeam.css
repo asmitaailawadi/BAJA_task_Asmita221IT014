@@ -1,0 +1,248 @@
+body,html 
+{
+    height: 98vh;
+    background-color: #fdcb6e;
+}
+
+
+/* background baja image */
+.bajacar-image-our-team
+{
+    background-image: url("images/bajaCar.png");
+    filter: blur(2px);
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.our-team-main 
+{
+    margin:120px 120px 0px 120px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom:50px;
+}
+
+
+/* links */
+.our-team-links  ul
+{
+    list-style-type: none;
+    font-weight: bold;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top:30px;
+}
+
+.our-team-links ul li
+{
+    display:inline;
+    padding:1%;
+}
+
+a 
+{
+    color: black;
+    text-decoration: none;
+    font-weight: medium;
+    font-size: 18px;
+}
+
+a:hover
+{
+    color:teal;
+}
+
+
+
+
+/* social media */
+.our-team-social ul
+{
+    list-style-type: none;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+
+.our-team-social ul li
+{
+    display:inline;
+    padding:1%;
+}
+
+
+.our-team-logo img 
+{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 15px; 
+    left: 15px; 
+}
+
+
+.facebook img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:550px; 
+}
+
+.instagram img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:650px; 
+}
+
+.linkedin img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:750px; 
+}
+
+.youtube img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:850px; 
+}
+
+
+
+
+.our-team-container
+{
+    
+    margin-top:0px;
+    height:2300px;
+    /* border:2px solid yellow; */
+    display:flex;
+    width:1420px;
+    flex-wrap: wrap;
+}
+
+.our-team-subcontainer
+{
+    background-color: #ffeaa7;
+    width:367px;
+    /* border:2px solid blue; */
+    height:500px;
+    margin-right:50px;
+    margin-left:50px;
+    border-radius: 5%;
+}
+
+.info-h1
+{
+    margin-bottom:0px;
+    margin-top:8px;
+    color:#f9ca24;
+}
+.info-h2
+{
+    margin-top:0px;
+}
+
+.item-au img
+{
+    margin-left:-20px;
+    padding-right:50px;
+    width:600px;
+    height:500px;
+}
+
+
+.our-team-container img:hover
+{
+    transform:scale(1.02);
+}
+.our-team-container :hover
+{
+    transform:scale(1.03);
+}
+
+
+.our-team-subcontainer-text
+{
+    text-align: center;
+}
+
+
+.professor
+{
+    background-color: #ffeaa7;
+    height: 135px;
+    text-align:center;
+    border:2px solid black;
+    align-items:center;
+    margin:65px;
+    border-radius:30px;
+}
+.professor:hover
+{
+    transform:scale(1.03);
+}
+
+.heading
+{
+    font-size: 60px;
+}
+
+.our-team-subcontainer img
+{
+    width:250px;
+    height:250px;
+    padding-top: 20px;
+    padding-left:50px;
+    border-radius: 50%;
+    margin:10px;
+}
+
+
+.our-team-li
+{
+    width:30px !important;
+    height:30px !important;
+    border-radius: 0 !important;
+
+}
+
+.our-team-li-box {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -50px;
+    margin-top: -20px;
+}
+
+.u 
+{
+    text-decoration: underline;
+}

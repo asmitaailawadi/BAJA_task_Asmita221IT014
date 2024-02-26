@@ -1,0 +1,160 @@
+body,html 
+{
+    height: 98vh;
+}
+
+
+
+/* BACKGROUND BAJA IMAGE */
+.bajacar-image-index
+{
+    background-image: url("images/bajaCar.png");
+    filter: blur(2px);
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* MAIN CONTENT */
+.i1
+{
+    font-size: 50px;
+    color:white;
+    margin:2px;
+}
+
+.i2
+{
+    font-size: 50px;
+    color:yellow;
+    margin-top:2px;
+    margin-bottom:5px;
+}
+
+.index-main 
+{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* LINKS */
+.index-links ul
+{   
+    list-style-type: none;
+    font-weight: bold;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top:30px;
+}
+
+
+
+.index-links ul li
+{
+    display:inline;
+    padding:1%;
+}
+
+a 
+{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover
+{
+    color:teal;
+}
+
+
+
+
+
+/* SOCIAL MEDIA */
+.index-social ul
+{
+    list-style-type: none;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+
+.index-social ul li
+{
+    display:inline;
+    padding:1%;
+}
+
+
+.index-logo img 
+{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 15px; 
+    left: 15px; 
+}
+
+
+.facebook img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:550px; 
+}
+
+.instagram img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:650px; 
+}
+
+.linkedin img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:750px; 
+}
+
+.youtube img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:850px; 
+}

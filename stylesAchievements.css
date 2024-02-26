@@ -1,0 +1,205 @@
+body,html 
+{
+    height: 96vh;
+    background-color: #c8d6e5;
+}
+
+/* Main content */
+.ac1
+{
+    font-size: 20px;
+    color:#ff9f43;
+    margin:2px;
+}
+
+.ac2
+{
+    font-size: 50px;
+    color:#0c2461;
+    margin-top:2px;
+    margin-bottom:35px;
+}
+
+.achievements-main 
+{
+    color: white;
+    font-weight: bold;
+    border: 3px solid white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* links */
+.achievements-links  ul
+{
+    list-style-type: none;
+    font-weight: bold;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top:30px;
+}
+
+.achievements-links ul li
+{
+    display:inline;
+    padding:1%;
+}
+
+a 
+{
+    color: black;
+    text-decoration: none;
+    font-weight: medium;
+    font-size: 18px;
+}
+
+a:hover
+{
+    color:teal;
+}
+
+
+
+
+/* social media */
+.achievements-social ul
+{
+    list-style-type: none;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+
+.achievements-social ul li
+{
+    display:inline;
+    padding:1%;
+}
+
+
+.achievements-logo img 
+{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 15px; 
+    left: 15px; 
+}
+
+
+.facebook img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:550px; 
+}
+
+.instagram img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:650px; 
+}
+
+.linkedin img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:750px; 
+}
+
+.youtube img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:850px; 
+}
+
+
+.heading
+{
+    margin-top:120px;
+    text-align:center;
+}
+
+.achievements-main-container
+{
+    height:450px;
+    /* border:2px solid yellow; */
+    margin:0px 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item 
+{
+    flex-grow: 1;
+    width:525px;
+    /* border:2px solid brown; */
+    padding:0px 20px;
+    height: 225px;
+}
+.gray-para
+{
+    color:#34495e;
+    padding-right: 80px;
+}
+
+.gray-para ol
+{
+    margin-top:20px;
+    color:#34495e;
+}
+
+.trophy-icon img
+{
+    padding-top: 20px;
+    width:40px;
+    height:40px;
+}
+
+.wrench-icon img
+{
+    padding-top: 20px;
+    width:40px;
+    height:40px;
+}
+
+.globe-icon img
+{
+    padding-top: 25px;
+    width:30px;
+    height:30px;
+}
+
+.un
+{
+    text-decoration: underline;
+    color:#0c2461;
+}

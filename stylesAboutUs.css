@@ -1,0 +1,185 @@
+body,html 
+{
+    height: 96vh;
+    background-color:#c8d6e5;
+}
+
+/* Main content */
+.au1
+{
+    font-size: 30px;
+    color: black;
+    margin:2px 2px 5px 2px;
+    color:#ff9f43;
+    text-decoration: underline;
+    margin-bottom: 50px;
+}
+
+/* links */
+.au-links  ul
+{
+    list-style-type: none;
+    font-weight: bold;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top:30px;
+}
+
+.au-links ul li
+{
+    display:inline;
+    padding:1%;
+}
+
+a 
+{
+    color: black;
+    text-decoration: none;
+    font-weight: medium;
+    font-size: 18px;
+}
+
+a:hover
+{
+    color:teal;
+}
+
+
+
+
+/* social media */
+.au-social ul
+{
+    list-style-type: none;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+
+.au-social ul li
+{
+    display:inline;
+    padding:1%;
+}
+
+
+.au-logo img 
+{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 15px; 
+    left: 15px; 
+}
+
+
+.facebook img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:550px; 
+}
+
+.instagram img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:650px; 
+}
+
+.linkedin img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:750px; 
+}
+
+.youtube img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:850px; 
+}
+
+
+.heading
+{
+    margin-top:120px;
+    text-align:center;
+}
+
+.au-main-container
+{
+    height:500px;
+    /* border:2px solid yellow; */
+    margin:0px 100px;
+    display: flex;
+}
+
+.item-au
+{
+    flex-grow: 1;
+    width:525px;
+    /* border:2px solid brown; */
+    padding:0px 20px;
+    height: 500px;
+}
+
+.text
+{
+    text-align: center;
+}
+
+.information
+{
+    height:178px;
+    /* border:2px solid yellow; */
+    display:flex;
+    width:560px;
+    flex-wrap: wrap;
+}
+.sub-container-two
+{
+    width:276px;
+    /* border:2px solid blue; */
+    height:82px;
+}
+
+.info-h1
+{
+    margin-bottom:0px;
+    margin-top:8px;
+    color:#ff9f43;
+}
+.info-h2
+{
+    margin-top:0px;
+}
+
+.item-au img
+{
+    margin-left:-40px;
+    padding-right:50px;
+    width:600px;
+    height:500px;
+}

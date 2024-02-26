@@ -1,0 +1,188 @@
+body,html 
+{
+    height: 98vh;
+    background-color: #fdcb6e;
+}
+
+
+/* background baja image */
+.bajacar-image-gallery
+{
+    background-image: url("images/bajaCar.png");
+    filter: blur(2px);
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.gallery-main 
+{
+    margin:120px 120px 0px 120px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom:50px;
+}
+
+
+/* links */
+.gallery-links  ul
+{
+    list-style-type: none;
+    font-weight: bold;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top:30px;
+}
+
+.gallery-links ul li
+{
+    display:inline;
+    padding:1%;
+}
+
+a 
+{
+    color: black;
+    text-decoration: none;
+    font-weight: medium;
+    font-size: 18px;
+}
+
+a:hover
+{
+    color:teal;
+}
+
+
+
+
+/* social media */
+.gallery-social ul
+{
+    list-style-type: none;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+
+.gallery-social ul li
+{
+    display:inline;
+    padding:1%;
+}
+
+
+.gallery-logo img 
+{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 15px; 
+    left: 15px; 
+}
+
+
+.facebook img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:550px; 
+}
+
+.instagram img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:650px; 
+}
+
+.linkedin img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:750px; 
+}
+
+.youtube img
+{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 15px; 
+    left:850px; 
+}
+
+
+
+
+.gallery-container
+{
+    margin-top:0px;
+    height:1600px;
+    /* border:2px solid yellow; */
+    display:flex;
+    width:1420px;
+    flex-wrap: wrap;
+}
+
+.gallery-subcontainer
+{
+    width:600px;
+    /* border:2px solid blue; */
+    height:450px;
+    margin-right:50px;
+    margin-left:50px;
+}
+
+.info-h1
+{
+    margin-bottom:0px;
+    margin-top:8px;
+    color:#f9ca24;
+}
+.info-h2
+{
+    margin-top:0px;
+}
+
+.item-au img
+{
+    margin-left:-20px;
+    padding-right:50px;
+    width:600px;
+    height:500px;
+}
+
+
+.gallery-container img
+{
+    width:600px;
+    height:450px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.gallery-container img:hover
+{
+    transform:scale(1.02);
+}
